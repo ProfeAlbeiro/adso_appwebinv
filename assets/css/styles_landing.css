@@ -48,21 +48,24 @@ nav a {
   justify-content: center;
   padding: 5px 40px;
 }
+.logo img{
+  height: 100%;
+}
 .navega {
   flex: 65%;
 }
 .navega .inicio {
-  flex: 20%;
+  flex: 15%;
   background: #999;
 }
 .navega .navegacion {
-  flex: 80%;
+  flex: 85%;
   justify-content: flex-end;
   background: #666;
 }
 .navega .navegacion a {
   flex: 0;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .navega .inicio a:hover,
 .navega .navegacion a:hover {
