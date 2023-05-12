@@ -45,11 +45,11 @@ nav a {
 .logo {
   flex: 20%;
   background: #fff;
-  justify-content: center;
-  padding: 5px 40px;
+  justify-content: center;  
 }
-.logo img{
-  height: 100%;
+.logo img {
+  height: 50px;
+  padding: 5px;
 }
 .navega {
   flex: 65%;
