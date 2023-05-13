@@ -144,7 +144,7 @@ footer {
     align-items: center;
   }
   .logo img {
-    height: 50px;
+    padding: 0;
   }
   .navega {
     flex: 1;
