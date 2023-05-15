@@ -41,6 +41,7 @@ nav a {
   align-items: center;
   text-decoration: none;
   color: #fff;
+  padding: 0 5px;
 }
 .logo {
   flex: 20%;
@@ -54,18 +55,15 @@ nav a {
 .navega {
   flex: 65%;
 }
-.navega .inicio {
-  flex: 15%;
+.navega .inicio {  
   background: #999;
 }
-.navega .navegacion {
-  flex: 85%;
+.navega .navegacion {  
   justify-content: flex-end;
   background: #666;
 }
 .navega .navegacion a {
-  flex: 0;
-  padding: 0 15px;
+  /* flex: 0;   */
 }
 .navega .inicio a:hover,
 .navega .navegacion a:hover {
