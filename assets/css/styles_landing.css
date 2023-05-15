@@ -55,15 +55,14 @@ nav a {
 .navega {
   flex: 65%;
 }
-.navega .inicio {  
+.navega .inicio {
+  flex: 1;  
   background: #999;
 }
 .navega .navegacion {  
+  flex: 1;  
   justify-content: flex-end;
   background: #666;
-}
-.navega .navegacion a {
-  /* flex: 0;   */
 }
 .navega .inicio a:hover,
 .navega .navegacion a:hover {
